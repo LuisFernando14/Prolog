@@ -37,3 +37,6 @@ comida_saludable(X, Y, Z, V) :- valor_calorico(X, Y, Z, V), V < 801.
 
 factorial(1, 1).
 factorial(X, Y) :- X > 1, X1 is X-1, factorial(X1, Y1), Y is X * Y1.
+
+%https://mx.linkedin.com/in/ricardo-galeana-lain-63166113a
+%http://itculiacan.edu.mx/wp-content/uploads/2014/08/promedioscarga2143.pdf
